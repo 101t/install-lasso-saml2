@@ -7,8 +7,8 @@ sudo apt install build-essential autoconf automake autotools-dev libtool libssl-
 
 wget https://dev.entrouvert.org/lasso/$LASSO.tar.gz
 tar -xzvf $LASSO.tar.gz
-./$LASSO/autogen.sh
-cd $LASSO
+cd $LASSO/
+./autogen.sh
 make install
 ldconfig
 #export PYTHONPATH="$PYTHONPATH:/usr/local/lib/python3.8/site-packages"
