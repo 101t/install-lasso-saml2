@@ -9,8 +9,8 @@ wget https://dev.entrouvert.org/lasso/$LASSO.tar.gz
 tar -xzvf $LASSO.tar.gz
 cd $LASSO/
 ./autogen.sh
-make install
-ldconfig
+sudo make install
+sudo ldconfig
 #export PYTHONPATH="$PYTHONPATH:/usr/local/lib/python3.8/site-packages"
 sleep 3
 echo "####### TESTING LASSO #######"
